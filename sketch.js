@@ -47,17 +47,7 @@ function draw(){
                if(key=="7"){
                    child(index, b, r, g, a,);
                }
-               if(index % 20 == 0){
-                   pixels[index] = 255;
-                   pixels[index +1] = 0;
-                   pixels[index +2] = 0;
-                   pixels[index +3] = a;
-               }
-               var lastPixel = pixels.length - 1;
-               pixels[lastPixel - index - 3] = r;
-               pixels[lastPixel - index - 2] = g;
-               pixels[lastPixel - index - 1] = b;
-               pixels[lastPixel - index - 0] = a;
+               
            }
        }
    }
